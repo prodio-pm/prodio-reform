@@ -1,0 +1,26 @@
+{
+  "name": "prodio-reform",
+  "version": "0.0.1",
+  "description": "Reforms values from one structure to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "author": "Jeremy Darling <Jeremy.Darling@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prodio-pm/prodio-reform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prodio-pm/prodio-reform/issues"
+  },
+  "homepage": "https://github.com/prodio-pm/prodio-reform"
+}
