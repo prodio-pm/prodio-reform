@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/prodio-pm/prodio-reform.svg)](https://travis-ci.org/prodio-pm/prodio-reform)
+
 Prodio-Reform
 =============
 
