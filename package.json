@@ -14,7 +14,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lambda-30": "0.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/prodio-pm/prodio-reform.git"
