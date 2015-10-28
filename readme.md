@@ -97,31 +97,8 @@ var r = new Reform(reformation);
 var output = r.reform(input);
 ```
 
-Lambda()
---------
+History
+---
 
-Under the hood of Reform everything is done using Lambda Expressions.  The
-expressions are implemented using the helper class Lambda.
-
-```
-var Reform = require('prodio-reform').Reform;
-```
-
-Lambda(options||expression)
-
-  * options
-    * selfSymbol - Symbol used for self reference, defaults to $
-    * expression - Expression to execute for evaluation
-  * expression - Expression to execute for evaluation
-
-Using constructor
-```
-  var l = new Lambda();
-  l.compile('$.a+$.b');
-  var value = l.execute({a: 5, b: 7});
-```
-
-Using direct
-```
-  var value = Lambda('a, b=>a+b')(5, 7);
-```
+  * 0.0.2 - Switch to Lambda-30 for Lambda implementation and interpertation
+  * 0.0.1 - Initial release
